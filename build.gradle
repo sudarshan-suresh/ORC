@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+
+repositories {
+	jcenter()
+}
+
+dependencies{
+testCompile 'junit:junit:4.12'
+compile group: 'org.apache.orc', name: 'orc-core', version: '1.4.0'
+
+}
